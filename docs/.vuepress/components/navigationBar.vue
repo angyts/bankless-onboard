@@ -1,13 +1,13 @@
 <template>
       <div>
         <b-navbar toggleable="lg" type="dark" variant="dark">
-          <b-navbar-brand href="#">Bankless: Onboard</b-navbar-brand>
+          <b-navbar-brand href="/">Bankless: Onboard</b-navbar-brand>
 
           <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
           <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav>
-              <b-nav-item href="#">Lesson 1</b-nav-item>
+              <b-nav-item href="lesson0-onboard">Get a Wallet</b-nav-item>
               <b-nav-item href="#">Lesson 2</b-nav-item>
             </b-navbar-nav>
 

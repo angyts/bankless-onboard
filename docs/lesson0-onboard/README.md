@@ -23,4 +23,5 @@ Course content
 
 4 sections . 45 mins
 
-[Why do you need a wallet?](/lesson0-onboard/why-wallet)
+<b-button block variant="success" to="why-wallet">Why do you need a wallet?</b-button>
+
