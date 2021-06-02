@@ -1,6 +1,7 @@
 ---
 title: Onboard
 type: page
+date: 2021-06-02T16:23:51.629Z
 ---
 <h3> Fundamentals </h3>
 
@@ -22,4 +23,4 @@ Course content
 
 4 sections . 45 mins
 
-Why do you need a wallet?
+[Why do you need a wallet?](/lesson0-onboard/why-wallet)
