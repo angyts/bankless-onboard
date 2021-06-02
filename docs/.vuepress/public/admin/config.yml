@@ -35,5 +35,5 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Type", name: "type", widget: "string", default: "post"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Publish", name: "date", widget: "date"}
