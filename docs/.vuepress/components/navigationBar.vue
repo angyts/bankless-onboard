@@ -30,7 +30,7 @@
                 <template #button-content>
                   <em>Connect Wallet</em>
                 </template>
-                <b-dropdown-item href="#">Profile</b-dropdown-item>
+                <b-dropdown-item @click="connectWallet">Connect</b-dropdown-item>
                 <b-dropdown-item href="#">Sign Out</b-dropdown-item>
               </b-nav-item-dropdown>
             </b-navbar-nav>
@@ -40,8 +40,16 @@
 </template>
 
 <script>
+const Box = require('3box')
+
 export default {
-  name: "navigationBar"
+  name: "navigationBar",
+  methods: {
+    connectWallet: function (){
+      console.log('clicked')
+    //  window.ethereum.enable();
+}
+  }
 }
 </script>
 

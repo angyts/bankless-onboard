@@ -11,9 +11,12 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-        "vuepress": "^1.8.2"
-    },
+    "vuepress": "^1.8.2"
+  },
   "dependencies": {
-    "bootstrap-vue": "^2.21.2"
+    "3box": "^1.19.1",
+    "bootstrap-vue": "^2.21.2",
+    "readable-stream": "^3.6.0",
+    "stream-browserify": "^3.0.0"
   }
 }
