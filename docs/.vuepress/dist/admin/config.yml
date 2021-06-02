@@ -1,0 +1,39 @@
+backend:
+  name: github
+  repo: punggolzenith/bankless-onboard
+  branch: main
+media_folder: "docs/.vuepress/public/img/uploads"
+public_folder: "/img/uploads"
+site_url: https://bankless.netlify.app/
+display_url: https://bankless.netlify.app/
+logo_url: https://your-site.com/images/logo.svg
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "front-page"
+        name: "Front Page"
+        file: "docs/README.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Type", name: "type", widget: "string", default: "page"}
+          - {label: "Body", name: "body", widget: "markdown"}
+      - label: "lesson0-onboard"
+        name: "Onboarding lesson"
+        file: "docs/lesson0-onboard/README.md"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Type", name: "type", widget: "string", default: "page"}
+          - {label: "Body", name: "body", widget: "markdown"}
+  - name: "lesson0" # Used in routes, e.g., /admin/collections/blog
+    label: "lesson0 onboarding" # Used in the UI
+    folder: "docs/lesson0-onboard" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    show_preview_links: true
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Type", name: "type", widget: "string", default: "post"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Publish", name: "date", widget: "date"}

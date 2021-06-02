@@ -4,8 +4,8 @@ type: page
 ---
 ### Front Page
 
-<place holder for nice welcoming animation or video>
+This is place holder for nice welcoming animation or video
 
 
 
-<b-button block variant="success" :link="{ path: 'lesson0-onboard' }">Let's dive in</b-button>
+<b-button block variant="success" to="lesson0-onboard">Let's dive in</b-button>
