@@ -11,9 +11,15 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-        "vuepress": "^1.8.2"
-    },
+    "vuepress": "^1.8.2"
+  },
   "dependencies": {
-    "bootstrap-vue": "^2.21.2"
+    "@3id/connect": "^0.1.4",
+    "@ceramicnetwork/3id-did-resolver": "^1.2.4",
+    "@ceramicnetwork/http-client": "^1.0.4",
+    "bootstrap-vue": "^2.21.2",
+    "dids": "^2.1.0",
+    "key-did-resolver": "^1.2.1",
+    "shortid": "^2.2.16"
   }
 }
