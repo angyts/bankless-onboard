@@ -1,0 +1,13 @@
+{
+  "name": "bankless-onboard",
+  "version": "1.0.0",
+  "description": "A site to learn onboard to the Bankless ecosystem",
+  "main": "index.js",
+  "repository": "https://github.com/punggolzenith/bankless-onboard.git",
+  "author": "Paul Ang <punggolzenith@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
