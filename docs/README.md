@@ -8,4 +8,4 @@ type: page
 
 
 
-<b-button block variant="success" :link="/lesson0-onboard">Let's dive in</b-button>
+<b-button block variant="success" :link="{ path: 'lesson0-onboard' }">Let's dive in</b-button>
